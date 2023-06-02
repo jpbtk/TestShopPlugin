@@ -1,0 +1,9 @@
+name: testShop
+version: '1.0-SNAPSHOT'
+main: a.testshop.TestShop
+api-version: 1.19
+commands:
+  testshop:
+    description: testShop
+    usage: /<command> [create,reload] [stone]
+    aliases: [shop]
